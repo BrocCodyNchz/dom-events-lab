@@ -6,7 +6,7 @@ const display = document.querySelector(`.display`);
 
 let output = ``;
 
-display.textContent = `Cody's Calculator!!`;
+display.textContent = `Please Use Me!`;
 
 calculator.addEventListener(`click`, (event) => {
     if (!event.target.classList.contains(`button`)) return;
