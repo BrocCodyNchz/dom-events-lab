@@ -1,3 +1,11 @@
+/*
+Changes made from the original provided in the Setup:
+Font Family to monospace
+Borders from solid to groove
+Color scheme to grey background and black numbers
+Black display
+*/
+
 * {
   box-sizing: border-box;
 }
@@ -6,7 +14,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: system-ui, sans-serif;
+  font-family: monospace;
 }
 
 .display {
